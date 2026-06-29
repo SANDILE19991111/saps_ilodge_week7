@@ -12,7 +12,7 @@ app.use(express.static(__dirname));
 
 // ✅ Serve the main HTML file
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, ' index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // ⚠️ Paste your Groq API key below (get it free at console.groq.com)
